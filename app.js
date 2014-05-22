@@ -34,5 +34,5 @@ app.get('/', function(req, res){
   });
 });
 
-app.listen(process.env.C9_PORT);
+app.listen(process.env.PORT);
 console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
